@@ -1,5 +1,8 @@
 digraph rough {
-
+	node [shape=record];
+	splines=false;
+	nodesep=.5;
+	graph [overlap=false];
 	ShippingDisplayjsp -> StoreErrorjsp;
 	StoreErrorjsp -> StoreError_Datajspf;
 	StoreErrorjsp -> StoreError_UIjspf;
